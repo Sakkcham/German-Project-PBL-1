@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Germany's Role in EU</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  /* Reset and base */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000; /* Pure Black */
+    color: #ff2b2b; /* Strong red */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: #ff2b2b;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+
+  .container {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .card {
+    background: #1a1a1a; /* Darker charcoal */
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(255, 43, 43, 0.7);
+    width: 260px;
+    height: 260px;
+    cursor: pointer;
+    color: #ff2b2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.25s ease, box-shadow 0.4s ease;
+    border: 2px solid #ff2b2b;
+  }
+
+  .card:hover {
+    background-color: #ff2b2b; /* On hover fill with red */
+    color: #000000; /* Text turns black */
+    box-shadow: 0 10px 30px #ff2b2b;
+    border-color: #ff0000;
+  }
+
+  .icon {
+    font-size: 5rem;
+    margin-bottom: 25px;
+    transition: color 0.25s ease;
+  }
+
+  .card:hover .icon {
+    color: #000000;
+  }
+
+  .label {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 1.2px;
+    user-select: none;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container {
+      gap: 40px;
+    }
+    .card {
+      width: 200px;
+      height: 200px;
+    }
+    .icon {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+    .label {
+      font-size: 1.2rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <h1><img src="german flag.jpeg" alt="profile-icon" width="50px"> Germany's Role in EU</h1>
+  <div class="container">
+    <a href="Classroom.html" class="card" title="Strong Economic Stability">
+      <div><p><img src="money.jpeg" alt="profile-icon" width="150px"></p></div>
+      <div class="label">Strong Economic Stability</div>
+    </a>
+    <a href="heading.html" class="card" title="Leadership in EU Policy">
+      <div><p><img src="yami __ black clover.jpeg" alt="profile-icon" width="150px"></p></div>
+      <div class="label">Leadership in EU Policy</div>
+    </a>
+    <a href="practice1.html" class="card" title="Enhanced European Unity">
+      <div><p><img src="Thorfinn Smiling.jpeg" alt="profile-icon" width="100px"></p></div>
+      <div class="label">Enhanced European Unity</div>
+    </a>
+  </div>
+</body>
+</html>
